@@ -1,8 +1,8 @@
 {
+  "homepage": "https://dilnawazkhan0706.github.io/e-forming-project",
   "name": "farming-project",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://e-forming-project.github.io/react-gh-pages",
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.6",
     "@testing-library/jest-dom": "^5.16.5",
@@ -22,6 +22,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "yarn run build",
     "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
